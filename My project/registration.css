@@ -1,0 +1,63 @@
+.Table_head{
+    width: 100%;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+.bit_logo{
+    width: 30%;  
+    padding-left: 30px ;
+}
+.leave_application{
+padding: 15px;
+width: 1100px;
+height: 500px;
+margin: auto;
+border:2px solid black;
+}
+
+.top{
+    width: 100%;
+    margin-top: 10px;
+}
+.bit_heading{
+    width: 70%;
+   padding-left: 90px;
+}
+.heading1{
+    font-size: xx-large;
+}
+.heading2{
+    padding-left: 40px;
+}
+
+.Submit{
+    
+    background: #0a0a0a;
+    color: white;
+    border-style: outset;
+    border-color: #050505;
+    height: 50px;
+    width: 100px;
+    font: bold15px arial,sans-serif;
+    text-shadow: none;
+    margin-left: 43%;
+}
+.leave_heading{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.form_left{
+    float: left;
+    padding-left: 70px;
+}
+.form_right{
+    float: right;
+}
+.clearfix{
+    clear: both;
+}
+.form{
+    padding-bottom: 90px;
+}

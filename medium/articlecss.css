@@ -1,0 +1,40 @@
+.trending{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.trending-article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.article1{
+    width: 320px;
+    height: 100px;
+    font-weight:900;
+}
+.trending-logo{
+    
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.trending-heading{
+   margin-top: 10px;
+   font-weight: 300;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-display: bold;
+
+}
+a:visited{
+    color: black;
+}
+

@@ -1,0 +1,6 @@
+li:first-child .btngroup .upbtn{
+    display: none;
+}
+li:last-child .btngroup .downbtn{
+    display: none;
+}

@@ -1,0 +1,17 @@
+.main{
+
+    height: 1600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px  solid black;
+    align-items: baseline;
+    margin: 30px;
+}
+.q{
+    width: 100px;
+    height: 100px;
+    border: 2px solid royalblue;
+    
+    
+}

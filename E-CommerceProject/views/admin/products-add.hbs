@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/navbar.css">
+</head>
+<body>
+    {{>navbar}}
+    <h1>Fill the Form </h1>
+    <div class="product_form">
+        <form action="/admin/products/add" method="post">
+            <input type="text" class="product_data" placeholder="Enter the Product Name" name="name"> <br>
+            <input type="text" class="product_data" placeholder="Enter the Product price" name="price"><br>
+            <input type="text" class="product_data" placeholder="Enter the Product description" name="description"><br>
+            <input type="text" class="product_data" placeholder="Enter the Product seller" name="seller"><br>
+            <input type="text" class="product_data" placeholder="Enter the Product imageURL" name="imageURL"><br>
+            <input type="text" class="product_data" placeholder="Enter the Product category" name="category"><br>
+            <button class="product_data">Submit</button><br>
+        </form>
+    </div>
+</body>
+</html>

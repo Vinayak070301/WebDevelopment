@@ -1,0 +1,44 @@
+.container_nav{
+    margin-left: 200px;
+    color: aliceblue;
+}
+.nav{
+    background-color: rgb(8, 8, 9);
+}
+.coding{
+    margin-right: 200px;
+    color: aliceblue;
+}
+.section2{
+    padding:100px ;
+    border-bottom: 1;
+    background-color: darkgray;
+}
+.Buttons{
+    margin: auto;
+}
+.news{
+  width: 270px;
+}
+tr{
+    border: 3px solid darkgray;
+    padding: 5px;
+   
+}
+.section3{
+    padding-top:50px ;
+}
+img{
+    width: 200px;
+    height: 200px;
+    
+}
+.time{
+    align-items: end;
+}
+.time_1{
+    background-color: deepskyblue;
+    width: fit-content;
+    border-radius: 25px;
+    margin-left: 80%;
+}

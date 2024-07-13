@@ -1,0 +1,16 @@
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5px;
+}
+.my-product-image{
+    /* width: 200px;
+    height: 200px; */
+}
+.product-list{
+    border: 1px solid black;
+}
+.category-head{
+    align-items: center;
+}

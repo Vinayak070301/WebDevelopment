@@ -1,0 +1,24 @@
+Start the mongodb server
+ create data folder
+ mongod --dbpath=data
+ default port localhost:27017 
+via mongosh we can connect to the mongodb server
+ >mongosh
+ this will connect to mongodb server
+
+inside the mongosh terminal
+ show dbs;
+
+create to new db
+ use db_name; // hoga to open kar dega nhi hoga to create
+
+to create a collection
+ db.createCollection("collection_name");
+  example:
+  db.createCollection("student");
+  db.students.insertMany([{name:'vinayak',age:18,subject:'Web Dev',marks:80,a.id: ObjectId('66426cb6ca70dce5b146b799')},{name:'Ayush',age:18,subject:'Web Dev',marks:00,a.id: ObjectId('66426cb6ca70dce5b146b79a')},{name:'Rrr',age:18,subject:'Web Dev',marks:80,a.id: ObjectId('66426cb6ca70dce5b146b79b')}]);
+
+
+  db.address.insertMany([{details:"Lahore, Pakistan"},{details:"Kohat enclave, delhi"},{details:"Vaishali, Delhi"}]);
+
+  {$lookup:{from:"address",localField: "a.id",foreignField: "_id",as: "Address_feild"}}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Product Detail</title>
+    <link rel="stylesheet" href="/styles/navbar.css">
+    <link rel="stylesheet" href="/styles/product-list.css">
+</head>
+<body>
+    {{>navbar}}
+    <img src="{{product.imageURL}}" alt="">
+    <h3>Product Name :{{product.name}}</h3>
+    <h3>Product Price :{{product.price}}</h3>
+    <h3>Product Description :{{product.description}}</h3>
+    <h3>Product Category :{{product.category}}</h3>
+    <h3>{{product.seller}}</h3>
+    <a href="/shop/cart/add/{{p._id}}">
+        <button>Add to Cart</button>
+    </a>
+    <h3>Product Review : 
+    </h3>
+</body>
+</html>

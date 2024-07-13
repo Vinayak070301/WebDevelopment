@@ -1,0 +1,17 @@
+.header_top{
+    margin: auto;
+   
+    width: 100%;
+}
+.cb_logo,.student_application_form,.enquiry_info{
+  
+     width: 45%;
+     
+}
+.student_application_form{
+     align-items: center;
+}
+.Parent{
+     border: 1px solid black;
+     align-items: center;
+}

@@ -1,0 +1,16 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+}
+a:hover{
+    color: black;
+}
+a:visited{
+    color: black;
+}

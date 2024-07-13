@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+     <link rel="stylesheet" href="/styles/navbar.css">
+</head>
+<body>
+    {{>navbar}}
+    <h1>Welcome to Cart</h1>
+     Total Price: <span class="totalPrice">{{totalPrice}}</span>
+    <ul class="cart-list">
+        {{#each cart as |c|}}
+        <li class="cart-list-item">
+            <div>
+                <img src={{c.id.imageURL}} alt="" width="100px" height="100px">
+            </div>
+            <div>
+                <p>Name: {{c.id.name}}</p>
+                <p>Price: {{c.id.price}}</p>
+
+                <div>
+                    Quantity:
+                    <a href="/shop/cart/increase/{{c.id._id}}">
+                        <button class="increaseQuantity">
+                            +
+                        </button>
+                    </a>{{c.quantity}}
+                    <a href="/shop/cart/decrease/{{c.id._id}}">
+                        <button class="decreaseQuantity">
+                            -
+                        </button>
+                    </a>
+                    <div id={{c.id._id}}></div>
+                </div>
+            </div>
+
+        </li>
+        {{/each}}
+    </ul>
+    <a href="/shop/buynow">
+    <button>Buy Now</button>
+    </a>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Attendence_miss.css">
+    <style>
+        *{
+    margin: 0px;
+    padding: 0px;
+         }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <section class="top">
+            <table class="Table_head">
+                <tr>
+                    <td class="bit_logo" > <img src="download.jpeg" alt="BIT_LOGO" width="100px" height="100px"> </td>
+                    <td class="bit_heading" ><div class="heading1">Birla Institute of Technology</div><div class="heading2"><h3>Mesra ,Ranchi (India)-835215</h3> </div>  </td>
+                </tr>
+            </table> 
+        </section> 
+        <form action="" method="get" class="Biometric">
+     
+            <h2 class="Bio_missed">Biometric Missed Punch Slip</h2>
+        <div class="form">
+           <div class="form_left">
+            Applicant's Name : <br>
+            Emp. Code : <br>
+            Designation : <br>
+            Department Section : <br>
+            If Your have missed the Punch : <br>
+            Missed Punch Date and Timing : <br>
+            </div>
+            <div class="form_right">
+                <input type="text" name="Applicant_name" id=""><br>
+                <input type="text" name="Emp_code" id=""><br>
+                <input type="text" name="Designation" id=""><br>
+                <input type="text" name="Department_Section" id=""><br>
+                <table>
+                    <tr>
+                        <td><input type="radio" name="punch" id="">P1</td>
+                        <td><input type="radio" name="punch" id="">P2</td>
+                        <td><input type="radio" name="punch" id="">P3</td>
+                        <td><input type="radio" name="punch" id="">P4</td>
+                    </tr>
+                </table>
+                <input type="datetime-local" name="Punch_dt" id="">
+            </div>
+            <div class="clearfix"></div>
+        </div>
+            <input type="submit" value="Submit" class="Submit" >
+        </form>
+
+
+
+    </div>
+</body>
+</html>
